@@ -65,7 +65,7 @@ function Local() {
     const query = new URLSearchParams();
     studies.forEach(id => query.append('StudyInstanceUIDs', id));
     navigate(`/viewer/dicomlocal?${decodeURIComponent(query.toString())}`);
-  };
+  };  
 
   // Set body style
   useEffect(() => {

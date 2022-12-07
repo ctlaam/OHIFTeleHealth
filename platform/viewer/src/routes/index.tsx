@@ -16,7 +16,7 @@ const bakedInRoutes = [
   // WORK LIST
   {
     path: '/',
-    children: DataSourceWrapper,
+    children: Local,
     private: true,
     props: { children: WorkList },
   },
